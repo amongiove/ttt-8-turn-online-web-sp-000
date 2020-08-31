@@ -42,3 +42,8 @@ def move(board, index , player_character = "X")
     index = input.to_i - 1
     return index
     end
+
+#turn
+def turn(board)
+  puts "Please enter 1-9:"
+end
