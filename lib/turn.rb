@@ -54,6 +54,5 @@ def turn(board)
   if valid_move?(board,index) == false
     turn(board)
   else
-    move(board, index , player_character = "X")
   end
 end
