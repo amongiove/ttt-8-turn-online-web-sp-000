@@ -45,5 +45,15 @@ def move(board, index , player_character = "X")
 
 #turn
 def turn(board)
+  #get input
   puts "Please enter 1-9:"
+  input = gets.strip
+  #convert input to index
+  index = input_to_index(input)
+  #if valid , end. if not ask again
+  if valid_move?(board,index) == false
+    turn(board)
+  else
+    move(board, index , player_character = "X")
+  end
 end
