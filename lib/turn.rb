@@ -1,4 +1,4 @@
-board= array.new = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 #display-board
 def display_board
