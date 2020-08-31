@@ -8,7 +8,6 @@ def display_board(board)
     puts "-----------"
     puts "   |   |   "
   end
-display_board(board)
 
 #valid-move
 def valid_move?(board, index)
