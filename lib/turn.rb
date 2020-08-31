@@ -47,5 +47,6 @@ def move(board, index , player_character = "X")
 def turn(board)
   puts "Please enter 1-9:"
   input=gets.strip
-  return input
+  input_to_index(input)
+  
 end
